@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Time Table</title>
+
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+            height: 60px;
+        }
+
+        th {
+            background-color: #34495e;
+            color: white;
+        }
+
+        .title {
+            font-size: 24px;
+            height: 50px;
+        }
+
+        .heading {
+            text-align: center;
+        }
+
+        .group-a {
+            background-color: #e8f5f2;
+        }
+
+        .group-b {
+            background-color: #fff8df;
+        }
+
+        .lab {
+            background-color: #ff9298;
+            color: #700000;
+            font-weight: bold;
+        }
+
+        .elective {
+            background-color: #c99bd8;
+            color: #4b205c;
+            font-weight: bold;
+        }
+
+        .tea-break {
+            background-color: #f5d6a6;
+            font-weight: bold;
+            color: #6b4a16;
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
+        }
+
+        .subject {
+            font-weight: bold;
+        }
+
+        .details {
+            display: block;
+            font-size: 12px;
+            margin-top: 3px;
+        }
+
+        tfoot td {
+            background-color: #34495e;
+            color: white;
+            font-weight: bold;
+            height: 40px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1 class="heading">Time Table 5th B Section</h1>
+
+    <table>
+
+        <tr>
+            <th colspan="11" class="title">
+                CLASS TIME TABLE
+            </th>
+        </tr>
+
+        <tr>
+            <th>DAYS</th>
+            <th>8.00<br>to<br>9.00</th>
+            <th>9.00<br>to<br>10.00</th>
+            <th>10.00<br>to<br>10.30</th>
+            <th>10.30<br>to<br>11.30</th>
+            <th>11.30<br>to<br>12.30</th>
+            <th>12.30<br>to<br>1.30</th>
+            <th>1.30<br>to<br>2.30</th>
+            <th>2.30<br>to<br>3.30</th>
+            <th>3.30<br>to<br>4.30</th>
+            <th>4.30<br>to<br>5.30</th>
+        </tr>
+
+        <tr class="group-a">
+
+            <th>MON</th>
+
+            <td>
+                <span class="subject">CNS</span>
+                <span class="details">KNP</span>
+                <span class="details">523</span>
+            </td>
+
+            <td>
+                <span class="subject">TOC</span>
+                <span class="details">SHG</span>
+                <span class="details">523</span>
+            </td>
+
+            <td class="tea-break" rowspan="6">
+                TEA BREAK
+            </td>
+
+            <td>
+                <span class="subject">AI</span>
+                <span class="details">MJ</span>
+                <span class="details">523</span>
+            </td>
+
+            <td>
+                <span class="subject">SE</span>
+                <span class="details">MH</span>
+                <span class="details">523</span>
+            </td>
+
+            <td>
+                <span class="subject">RM</span>
+                <span class="details">PKH</span>
+                <span class="details">523</span>
+            </td>
+
+            <td></td>
+
+            <td colspan="2" class="elective">
+                MINI PROJECT
+            </td>
+
+            <td></td>
+
+        </tr>
+
+        <tr class="group-b">
+
+            <th>TUE</th>
+
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+            <td>
+                <span class="subject">AI</span>
+                <span class="details">MJ</span>
+                <span class="details">521</span>
+            </td>
+
+            <td>
+                <span class="subject">SE</span>
+                <span class="details">MH</span>
+                <span class="details">521</span>
+            </td>
+
+            <td>
+                <span class="subject">TOC</span>
+                <span class="details">SHG</span>
+                <span class="details">521</span>
+            </td>
+
+            <td>
+                <span class="subject">CNS</span>
+                <span class="details">KNP</span>
+                <span class="details">521</span>
+            </td>
+
+            <td></td>
+
+        </tr>
+
+        <tr class="group-a">
+
+            <th>WED</th>
+
+            <td>
+                <span class="subject">RM</span>
+                <span class="details">PKH</span>
+                <span class="details">523</span>
+            </td>
+
+            <td>
+                <span class="subject">SE</span>
+                <span class="details">MIH</span>
+                <span class="details">523</span>
+            </td>
+
+            <td>
+                <span class="subject">TOC</span>
+                <span class="details">SHG</span>
+                <span class="details">523</span>
+            </td>
+
+            <td>
+                <span class="subject">AI</span>
+                <span class="details">MJ</span>
+                <span class="details">523</span>
+            </td>
+
+            <td></td>
+
+            <td colspan="2" class="lab">
+                WT Lab / CNS Lab
+                <span class="details">B1+B2 &nbsp; B3+B4</span>
+                <span class="details">527B &nbsp; 503</span>
+            </td>
+
+            <td></td>
+            <td></td>
+
+        </tr>
+
+        <tr class="group-b">
+
+            <th>THU</th>
+
+            <td></td>
+            <td></td>
+
+            <td>
+                <span class="subject">EVS</span>
+                <span class="details">KRS</span>
+                <span class="details">Online</span>
+            </td>
+
+            <td></td>
+            <td></td>
+
+            <td colspan="2" class="elective">
+                MINI PROJECT
+            </td>
+
+            <td></td>
+            <td></td>
+
+        </tr>
+
+        <tr class="group-a">
+
+            <th>FRI</th>
+
+            <td colspan="2" class="lab">
+                WT Lab / CNS Lab
+                <span class="details">B3+B4 &nbsp; B1+B2</span>
+                <span class="details">503 &nbsp; 527B</span>
+            </td>
+
+            <td>
+                <span class="subject">TOC</span>
+                <span class="details">SHG</span>
+                <span class="details">527C</span>
+            </td>
+
+            <td>
+                <span class="subject">CNS</span>
+                <span class="details">KNP</span>
+                <span class="details">527C</span>
+            </td>
+
+            <td></td>
+
+            <td>
+                <span class="subject">RM</span>
+                <span class="details">PKH</span>
+                <span class="details">527C</span>
+            </td>
+
+            <td>
+                <span class="subject">SE</span>
+                <span class="details">MH</span>
+                <span class="details">527C</span>
+            </td>
+
+            <td></td>
+            <td></td>
+
+        </tr>
+
+        <tr class="group-b">
+
+            <th>SAT</th>
+
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+
+        <tfoot>
+
+            <tr>
+                <td colspan="11">
+                    End Of Timetable
+                </td>
+            </tr>
+
+        </tfoot>
+
+    </table>
+
+</body>
+
+</html>
